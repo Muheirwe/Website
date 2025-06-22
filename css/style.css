@@ -1,0 +1,54 @@
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8fafc;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      padding: 12px 24px;
+      background-color: #0f172a;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .logo-container {
+      width: 120px;
+      height: auto;
+    }
+
+    .logo-svg {
+      width: 100%;
+      height: auto;
+    }
+
+    /* Optional navigation (you can expand this) */
+    nav {
+      margin-left: auto;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 16px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+      .logo-container {
+        width: 90px;
+      }
+
+      nav a {
+        font-size: 14px;
+      }
+    }
+  
